@@ -1,0 +1,15 @@
+accounts:
+  alice:
+    token_file: "~/.config/rmsync/alice.yaml"
+    cloud_host: "https://remarkable.mitchellscott.us"
+  bob:
+    token_file: "~/.config/rmsync/bob.yaml"
+    cloud_host: "https://remarkable.mitchellscott.us"
+
+shares:
+  - name: "penpals"
+    paths:
+      alice: "/Penpals"
+      bob: "/Penpals"
+
+poll_secs: 10
